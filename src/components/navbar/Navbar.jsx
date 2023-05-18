@@ -6,16 +6,19 @@ import "./navbar.css";
 const Menu = () => (
   <>
     <p>
-      <a href="#aboutUs">Sobre Nosotros</a>
+      <a href="#home">Inicio</a>
     </p>
     <p>
       <a href="#servicios">Servicios</a>
     </p>
     <p>
-      <a href="#cursos">Cursos</a>
+      <a href="#us">Tesbafon</a>
     </p>
     <p>
-      <a href="#experiencia">Experiencia</a>
+      <a href="#cliente">Clientes</a>
+    </p>
+    <p>
+      <a href="#unete">Únetenos</a>
     </p>
     <p>
       <a href="#contacto">Contacto</a>
