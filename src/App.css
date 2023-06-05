@@ -4,12 +4,14 @@
     margin: 0;
     scroll-behavior: smooth;
 }
-body{
-    background-image: url(./assets/negocio.png);
-}
+
 a{
     color:unset;
     text-decoration: none;
+}
+
+.back{
+    background-image: url(./assets/negocio.png);
 }
 
 .section__padding {

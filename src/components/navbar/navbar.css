@@ -93,6 +93,14 @@
     .navbar{
         padding:  2rem;
     }
+
+    .navbar-links_logo img{
+        width: 80%;  
+    }
+
+    .navbar-menu{
+        margin-left: 0;
+    }
     .acad__navbar-menu_container{
         top: 20px;
     }
