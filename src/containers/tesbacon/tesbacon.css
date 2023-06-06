@@ -1,0 +1,96 @@
+.tesbacon{
+    display: flex;
+    flex-direction: row;
+}
+
+.tesbacon-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.tesbacon-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.tesbacon-content h2{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+    letter-spacing: -0.04em;
+    color: #F6B800;
+}
+
+.tesbacon-content p{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+
+    margin-top: 1.5rem;
+}
+
+.tesbacon-down{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+.tesbacon-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1050px){
+    .tesbacon{
+        flex-direction: column;
+    }
+
+    .tesbacon-content{
+        margin: 0 0 3rem;
+    }
+
+    .tesbacon-image img{
+        width: 60%;
+        height: 65%;
+    }
+}
+
+@media screen and (max-width:650px){
+    .tesbacon h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .tesbacon h2{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .tesbacon p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .tesbacon-content{
+        margin: 0 0 3rem;
+    }
+}
+
+
+
