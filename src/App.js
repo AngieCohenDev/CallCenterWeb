@@ -14,6 +14,7 @@ const App = () => {
       <Tesbacon/>
       <CTA />
       <Blog />
+      <CTA />
       <Features />
       <Possibility />
       <Footer />
