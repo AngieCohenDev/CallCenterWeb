@@ -5,6 +5,7 @@ import "./navbar.css";
 
 const Menu = () => (
   <>
+  
     <p>
       <a href="#home">Inicio</a>
     </p>
@@ -12,7 +13,7 @@ const Menu = () => (
       <a href="#servicios">Servicios</a>
     </p>
     <p>
-      <a href="#us">Tesbafon</a>
+      <a href="#us">Tesbacom</a>
     </p>
     <p>
       <a href="#cliente">Clientes</a>
@@ -23,6 +24,8 @@ const Menu = () => (
     <p>
       <a href="#contacto">Contacto</a>
     </p>
+  
+ 
   </>
 );
 
@@ -37,7 +40,6 @@ const Navbar = () => {
           <img src={logo} alt="logo" />
         </div>
       <div className="navbar-links">
-        
         <div className="navbar-links_container">
           <Menu />
         </div>

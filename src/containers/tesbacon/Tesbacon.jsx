@@ -17,7 +17,7 @@ const Tesbacon = () => {
           que trabaje con nosotros siempre querrá hacerlo.
         </p>
         <div className="tesbacon-down">
-        <p>¡Somos Tesbacon, Somos su Solución!</p>
+        <p>¡Somos Tesbacom, Somos su Solución!</p>
       </div>
       </div>
       <div className="tesbacon-image">

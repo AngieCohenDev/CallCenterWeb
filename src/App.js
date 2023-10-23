@@ -4,11 +4,10 @@ import {
   Blog,
   Header,
   Footer,
-  Features,
-  Possibility,
   Tesbacon,
 } from "./containers";
-import { CTA, Brand, Navbar } from "./components";
+import { CTA, Navbar} from "./components";
+import Cards from './components/Cards'
 import "./App.css";
 
 const App = () => {
@@ -22,8 +21,7 @@ const App = () => {
       <CTA />
       <Blog />
       <CTA />
-      <Features />
-      <Possibility />
+      <Cards />
       <div className="style">
         <Footer/>
       </div>

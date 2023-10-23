@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="header section__padding" id="home">
       <div className="header-content">
-        <h1>Somos Tesbacon</h1>
+        <h1>Somos Tesbacom</h1>
         <h2 className="subtitle"> La herramienta que tu empresa necesita</h2>
         <p>
           Somos la solución que su empresa necesita. Estamos encantados de

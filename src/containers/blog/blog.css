@@ -66,3 +66,38 @@
     width: 70%;
     height: 80%;
 }
+
+@media screen and (max-width:1050px){
+    .blog{
+        flex-direction: column;
+    }
+
+    .blog-content{
+        margin: 0 0 3rem;
+    }
+
+    .blog-image img{
+        width: 60%;
+        height: 65%;
+    }
+}
+
+@media screen and (max-width:650px){
+    .blog h1{
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .blog h2{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .blog p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .blog-content{
+        margin: 0 0 3rem;
+    }
+}

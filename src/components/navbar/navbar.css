@@ -27,9 +27,9 @@
     flex-direction: row;
 }
 
-.navbar-links_container p,
-.navbar-menu_container p{
-    color: #fff;
+.navbar-links_container a ,
+.navbar-menu_container a{
+    color:#fff;
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 24px;
@@ -38,7 +38,9 @@
 
     margin: 0 1rem;
     cursor: pointer;
+    text-decoration: none;
 }
+
 
 .navbar-menu{
     margin-left: 1rem;
@@ -70,7 +72,7 @@
     box-shadow: 0 0 5 rgba(0,0,0,0.2);
 }
 
-.navbar-menu_container p{
+.navbar-menu_container a{
     margin:  1.5rem;
 }
 
