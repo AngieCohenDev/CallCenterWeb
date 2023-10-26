@@ -17,11 +17,11 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
+      <Cards />
       <Tesbacon />
       <CTA />
       <Blog />
       <CTA />
-      <Cards />
       <div className="style">
         <Footer/>
       </div>

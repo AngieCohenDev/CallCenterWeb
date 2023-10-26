@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 import './cards.css'
 
-function Card({title, imag, text}) {
+function Card({title, imag, text,url}) {
   return (
-    <div className='card text-center bg-dark animate__animated animate__fadeInUp'>
+    <div className='card text-center border-0 animate__animated animate__fadeInUp'>
        <div className='overflow'>
         <img src={imag} alt='' className='card-img-top' />
        </div>
@@ -19,8 +19,8 @@ function Card({title, imag, text}) {
           }
         
         </p>
-        <a href='#!' className='btn btn-outline-secondary'>
-            Go to this website
+        <a href={url} className='btn btn-warning text-uppercase fw-bold' target='__blank'>
+            Contáctanos  
         </a>
 
       </div>

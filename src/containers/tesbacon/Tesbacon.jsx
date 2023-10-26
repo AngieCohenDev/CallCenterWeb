@@ -9,12 +9,10 @@ const Tesbacon = () => {
         <h1>Especializados en soluciones empresariales</h1>
         <h2>Somos máster en ventas, mercadería y acompañamiento empresarial</h2>
         <p>
-          Somos una empresa fundada con todo el potencial argentino.
-          Comprometida con los sus clientes y sus necesidades especiales.
-          Estamos en camino de ser reconocidos por nuestra excelencia, nuestra
-          disciplina y los resultados extraordinarios que le entregamos a
-          quienes nos dejan ser parte de su familia. Le aseguramos que una vez
-          que trabaje con nosotros siempre querrá hacerlo.
+        Tesbacom es tu socio confiable en soluciones de atención al cliente, soporte empresarial y venta telefónica. Nos enorgullece ser una empresa líder en el sector, dedicada a brindar servicios de alta calidad que fortalecen las relaciones entre nuestros clientes y sus consumidores. !Estamos encantados de formar parte de su equipo!
+        </p>
+        <p>
+        Ofrecemos una amplia gama de servicios para satisfacer las necesidades únicas de nuestros clientes. Desde atención al cliente multicanal hasta soporte técnico especializado y estrategias de telemarketing efectivas,
         </p>
         <div className="tesbacon-down">
         <p>¡Somos Tesbacom, Somos su Solución!</p>
