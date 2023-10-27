@@ -3,6 +3,8 @@
     transition: all 0.7s linear;
 }
 
+
+
 .card {
     background-color: #292929 !important;
     margin: 1rem;
@@ -10,6 +12,19 @@
 
 .card-body {
     padding: 2rem 0 !important;
+}
+
+.card-body p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--text-family);
+    color: white;
+}
+.card-body h4{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: var(--text-family);
+    color: white;
 }
 
 .card-text {
@@ -39,3 +54,5 @@
 	line-height: 27px;
 	letter-spacing: 0.1em;
 }
+
+

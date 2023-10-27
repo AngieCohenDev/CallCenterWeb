@@ -73,18 +73,29 @@
     .blog{
         flex-direction: column;
     }
+    
 
     .blog-content{
         margin: 0 0 3rem;
     }
 
     .blog-image img{
-        width: 60%;
-        height: 65%;
+        width: 55%;
+        height: 60%;
+    }
+
+    .img_1{
+        width: 30vw;
+        height: 8vh;
+    }
+    .img_2{
+        width: 20vw;
+        height: 11vh;
     }
 }
 
-@media screen and (max-width:650px){
+
+@media screen and (max-width:450px){
     .blog h1{
         font-size: 35px;
         line-height: 45px;

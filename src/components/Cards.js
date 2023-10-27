@@ -15,13 +15,13 @@ const cards = [
         text: 'Nuestra dedicación al servicio al cliente y nuestra experiencia en la industria nos permiten ofrecer soluciones efectivas y personalizadas para satisfacer tus necesidades comerciales.',
         url: 'https://www.youtube.com/'
     },
-    {
+    /*{
         id: 2,
         title: 'Encuestas Publicitarias',
         image: s_encuestas,
         text: 'Hola este es el texto de prueba',
         url: 'https://www.youtube.com/'
-    },
+    },*/
     {
         id: 3,
         title: 'Estudio de Mercado',
@@ -52,11 +52,11 @@ function Cards() {
   return (
     <div>
         <h1>Nuestos servicios</h1>
-    <div className='container d-flex justify-content-center align-items-center w-76 m-5'>
+    <div className='container d-flex justify-content-center align-items-center w-76'>
         <div className='row'>
             {
                 cards.map(card => (
-                    <div className='col-md-4' key={card.id}>
+                    <div className='col-12 col-md-6 col-lg-4' key={card.id}>
                         <Card title = {card.title} imag={card.image} text={card.text} url={card.url} />
                     </div>
                 ))
